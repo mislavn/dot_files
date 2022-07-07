@@ -41,3 +41,10 @@ name = "lang#rust"
 [[layers]]
 name = "lang#python"
 python_interpreter = '/usr/bin/python'
+
+[[layers]]
+name = "colorscheme"
+
+[options]
+colorscheme = "hybrid"
+colorscheme_bg = "dark"
