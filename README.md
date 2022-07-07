@@ -4,7 +4,7 @@ My dot files.
 
 ## Arch linux
 ```
-paru -S exa bat fd procs dust ripgrep zellij starship fish
+paru -S exa bat fd procs dust ripgrep zellij starship fish evcxr_repl
 ```
 
 ## Python

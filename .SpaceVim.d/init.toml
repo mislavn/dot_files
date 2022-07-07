@@ -11,7 +11,7 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "gruvbox"
+    colorscheme = "hybrid"
     colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
@@ -29,6 +29,7 @@
 name = 'autocomplete'
 auto_completion_return_key_behavior = "complete"
 auto_completion_tab_key_behavior = "smart"
+autocomplete_method = "coc"
 
 [[layers]]
 name = 'shell'
@@ -48,3 +49,11 @@ name = "colorscheme"
 [options]
 colorscheme = "hybrid"
 colorscheme_bg = "dark"
+
+[[layers]]
+  name = "lsp"
+  filetypes = [
+    "rust"
+  ]
+  [layers.override_cmd]
+    rust = ["rust-analyzer"]
