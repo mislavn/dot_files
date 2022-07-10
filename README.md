@@ -11,6 +11,7 @@ paru -S exa bat fd procs dust ripgrep zellij starship fish evcxr_repl git-delta
 ```
 paru -S feh compton picom polybar xmobar lemonbar conky demun
 ```
+# picom is used for transition animation
 
 ## Python
 ```
