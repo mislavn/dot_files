@@ -22,4 +22,4 @@ fish_add_path $HOME/.poetry/bin
 
 # ENV varibales
 set -x SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.socket
-set -x EDITOR '/usr/bin/vim'
+set -x EDITOR '/usr/bin/nvim'
