@@ -49,11 +49,4 @@ name = "colorscheme"
 [options]
 colorscheme = "hybrid"
 colorscheme_bg = "dark"
-
-[[layers]]
-  name = "lsp"
-  filetypes = [
-    "rust"
-  ]
-  [layers.override_cmd]
-    rust = ["rust-analyzer"]
+automatic_update = true
