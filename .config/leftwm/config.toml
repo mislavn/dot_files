@@ -301,3 +301,15 @@ command = "Execute"
 value = "light -A 2"
 modifier = []
 key = "XF86XK_MonBrightnessUp"
+
+[[keybind]]
+command = "Execute"
+value = "i3lock -c 000000 && sudo systemctl suspend"
+modifier = ["modkey", "Shift"]
+key = "s"
+
+[[keybind]]
+command = "Execute"
+value = "i3lock -c 000000 && sudo systemctl hibernate"
+modifier = ["modkey", "Shift"]
+key = "p"

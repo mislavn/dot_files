@@ -9,7 +9,7 @@ paru -S exa bat fd procs dust ripgrep zellij starship fish evcxr_repl git-delta
 
 ### LeftWM
 ```
-paru -S feh compton picom polybar xmobar lemonbar conky demun
+paru -S feh compton picom polybar xmobar lemonbar conky demun i3clock
 ```
 # picom is used for transition animation
 
