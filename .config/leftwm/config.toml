@@ -313,3 +313,15 @@ command = "Execute"
 value = "i3lock -c 000000 && sudo systemctl hibernate"
 modifier = ["modkey", "Shift"]
 key = "p"
+
+[[keybind]]
+command = "Execute"
+value = "polybar-msg cmd hide"
+modifier = ["modkey", "Shift"]
+key = "b"
+
+[[keybind]]
+command = "Execute"
+value = "polybar-msg cmd show"
+modifier = ["modkey", "Shift"]
+key = "m"
