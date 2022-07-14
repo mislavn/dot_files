@@ -11,7 +11,8 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "hybrid"
+    # colorscheme = "hybrid"
+    colorscheme = "onedark"
     colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
@@ -46,3 +47,15 @@ python_interpreter = '/usr/bin/python'
 
 [[layers]]
 name = "colorscheme"
+
+[[custom_plugins]]
+repo = 'joshdick/onedark.vim'
+
+[[custom_plugins]]
+repo = 'vim-syntastic/syntastic'
+
+[[custom_plugins]]
+repo = 'mattn/webapi-vim'
+
+[[custom_plugins]]
+repo = 'universal-ctags/ctags'
